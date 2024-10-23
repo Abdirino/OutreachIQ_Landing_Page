@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: Montserrat;
+  src: url(/src/assets/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(/src/assets/fonts/OpenSans-Bold.ttf);
+}
+
+* h1, h2, span{
+  font-family: Montserrat;
+  color: #3b82f6;
+}
+
+* p, li, a {
+  font-family: OpenSans;
+}
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  /* color-scheme: dark; */
+}
