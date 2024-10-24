@@ -13,7 +13,7 @@
   src: url(/src/assets/fonts/OpenSans-Bold.ttf);
 }
 
-* h1, h2, span{
+* h1, h2{
   font-family: Montserrat;
   color: #3b82f6;
 }
