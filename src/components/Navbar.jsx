@@ -10,9 +10,14 @@ const Navbar = () => {
     setDrawerOpen(!drawerOpen);
   };
   return (
-    <nav className="sticky top-0 z-50 py-1 backdrop-blur-lg border-b-[#778fb663]">
+    <nav className="sticky top-0 z-50 backdrop-blur-lg border-b-[#778fb663]">
+      <div className="text-center w-full p-2 bg-black">
+        <p className="text-white font-thin lg:text-sm text-xs tracking-wide">
+          Automate. Engage. Convert Smarter | Get started now for only $19/m →
+        </p>
+      </div>
       <div className="container px-4 m-auto relative text-sm">
-        <div className="flex justify-between items-center">
+        <div className="flex lg:justify-around justify-between items-center">
           <div className="flex items-center justify-center flex-shrink-0">
             <a href="#">
               <img className="w-24 h-24" src={logo} alt="" />
@@ -27,13 +32,10 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="hidden lg:flex justify-center text-[15px] items-center space-x-4">
-            <a href="#" className="py-3 px-3 border rounded-md">
+            {/* <a href="#" className="py-3 px-3 border rounded-md">
               Sign In
-            </a>
-            <a
-              href="#"
-              className="bg-[#f1c40f] px-3 py-3 rounded-md"
-            >
+            </a> */}
+            <a href="#" className="bg-[#f1c40f] px-3 py-3 border-[#F1F1F1] rounded-3xl shadow-[0_7px_14px_#EAEAEA]">
               Get started
             </a>
           </div>
@@ -56,10 +58,7 @@ const Navbar = () => {
               <a href="#" className="py-3 px-3 border rounded-md">
                 Sign In
               </a>
-              <a
-                href="#"
-                className="bg-[#f1c40f] px-3 py-3 rounded-md"
-              >
+              <a href="#" className="bg-[#f1c40f] px-3 py-3 rounded-md">
                 Get started
               </a>
             </div>

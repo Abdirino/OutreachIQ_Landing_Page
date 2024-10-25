@@ -61,33 +61,33 @@ export const testimonials = [
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Automated Outreach",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Let AI handle your outreach while you focus on closing deals. Reach your audience through email, LinkedIn, or SMS with zero manual effort.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Multi-Channel Communication",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Communicate with prospects where they are, all from one place. Build connections across channels seamlessly with OutreachIQ.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Smart Insights and Reporting",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Get actionable insights on every campaign. Track open rates, responses, and conversions with OutreachIQ’s powerful analytics.",
   },
   {
     icon: <BatteryCharging />,
     text: "Real-Time Preview",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Preview your incoming prospects in real-time as you make changes, allowing for quick iterations and adjustments.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Customized Workflows",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Create unique workflows that fit your process, not the other way around. Our flexible workflows adapt to your sales strategy.",
   },
   {
     icon: <GlobeLock />,
@@ -122,33 +122,36 @@ export const checklistItems = [
 
 export const pricingOptions = [
   {
-    title: "Free",
-    price: "$0",
+    title: "Enterprise",
+    price: "$199",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "Full suite access with unlimited usage",
+      "Dedicated AI assistant for sales insights",
+      "Team performance and usage analytics",
+      "Custom CRM integrations and API access",
+      "Customized reporting and enterprise-level security",
     ],
   },
   {
     title: "Pro",
-    price: "$10",
+    price: "$49",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      "Unlimited emails/month",
+      "Advanced automation and workflow customization",
+      "Advanced analytics and reporting",
+      "Multi-channel support (email, LinkedIn, SMS)",
+      "Priority CRM integration",
     ],
   },
   {
-    title: "Enterprise",
-    price: "$200",
+    title: "Starter",
+    price: "$19",
     features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
+      "500 emails/month",
+      "Basic automation workflows",
+      "Basic reporting",
+      "Email + LinkedIn outreach",
+      "CRM integration (limited)",
     ],
   },
 ];

@@ -3,25 +3,25 @@ import { pricingOptions } from "../constants";
 
 const Pricing = () => {
   return (
-    <div className="mt-20">
+    <div className="container mt-40">
       <h1 className="text-3xl text-center sm:text-4xl lg:text-5xl mx-5 text-clip my-8 tracking-wide">
         Pricing
       </h1>
       <div className="flex flex-wrap">
         {pricingOptions.map((option, index) => (
           <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-2">
-            <div className="p-10 border border-neutral-700 rounded-xl">
-              <p className="text-3xl mb-8">
+            <div className="p-10 border border-[#dbdada] rounded-3xl shadow-[0_7px_14px_#EAEAEA]">
+              <span className="text-3xl mb-8">
                 {option.title}
                 {option.title === "Pro" && (
                   <span className="bg-gradient-to-r from-[#2ecc71] to-[#268f52] bg-clip-text text-transparent">
                     (Most Popular)
                   </span>
                 )}
-              </p>
+              </span>
               <p className="mb-8">
-                <span className="text-5xl mt-6 mr-2">{option.price}</span>
-                <span className="text-neutral-400 tracking-tight">/Month</span>
+                <h1 className="text-5xl mt-6 mr-2">{option.price}</h1>
+                <span className="text-neutral-500 tracking-tight">/Month</span>
               </p>
               <ul>
                 {option.features.map((feature, index) => (
@@ -34,9 +34,9 @@ const Pricing = () => {
               <a
                 href="#"
                 className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20
-               tracking-tight text-xl hover:bg-[#f1c40f] border border-black rounded-lg transition duration-200"
+               tracking-tight text-xl hover:bg-[#f1c40f] border-[#F1F1F1] rounded-3xl shadow-[0_7px_14px_#EAEAEA] transition duration-200"
               >
-                Subscribe
+                Start Free Trial
               </a>
             </div>
           </div>

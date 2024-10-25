@@ -2,22 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-  font-family: Montserrat;
-  src: url(/src/assets/fonts/Montserrat-Bold.ttf);
+  font-family: Poppins;
+  src: url(/src/assets/fonts/Poppins-Bold.ttf);
 }
 
 @font-face {
   font-family: OpenSans;
+  src: url(/src/assets/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSansBold;
   src: url(/src/assets/fonts/OpenSans-Bold.ttf);
 }
 
 * h1, h2, h3, h5, h4{
-  font-family: Montserrat;
+  font-family: Poppins;
   color: #3b82f6;
 }
 
-* p, li, a, ul, span {
+* p, li, ul {
   font-family: OpenSans;
+}
+
+* a, span, p, li {
+  font-family: OpenSansBold;
 }

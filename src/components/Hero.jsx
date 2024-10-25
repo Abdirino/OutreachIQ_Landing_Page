@@ -12,17 +12,15 @@ const Hero = () => {
         </span>
       </h1>
       <p className="mt-10 text-2xl sm:text-lg text-center text-neutral-600 max-w-4xl">
-        Automate tasks, personalize emails, and close more deals.
+        Automate Your Outreach in Minutes, Reach Your Prospects Everywhere, and
+        Close Deals Faster with AI-Powered Personalization.
       </p>
       <div className="flex flex-wrap justify-center my-10">
-        <a
-          href="#"
-          className="bg-[#f1c40f] py-3 px-4 mx-3 rounded-md"
-        >
+        <a href="#" className="bg-[#f1c40f] py-3 px-4 mx-3 mb-6 border-[#F1F1F1] rounded-3xl shadow-[0_7px_14px_#EAEAEA]">
           Start Your Free 7-Day Trial
         </a>
-        <a href="#" className="py-3 px-4 mx-3 border rounded-md">
-          Explore Plans
+        <a href="#" className="py-3 px-4 mx-3 items-center">
+          Learn more →
         </a>
       </div>
       <div className="flex my-10 justify-center">
@@ -33,8 +31,8 @@ const Hero = () => {
           className="rounded-lg w-1/2 border shadow-[#f1c40f] mx-2 my4"
         >
           {" "}
-          <source src={Video1} type="video/mp4" />{" "}
-          Your browser does not support the video tag
+          <source src={Video1} type="video/mp4" /> Your browser does not support
+          the video tag
         </video>
         <video
           autoPlay
@@ -43,8 +41,8 @@ const Hero = () => {
           className="rounded-lg w-1/2 border border-orange-700 shadow-[#f1c40f] mx-2 my4"
         >
           {" "}
-          <source src={Video2} type="video/mp4" />{" "}
-          Your browser does not support the video tag
+          <source src={Video2} type="video/mp4" /> Your browser does not support
+          the video tag
         </video>
       </div>
     </div>
