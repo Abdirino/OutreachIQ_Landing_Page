@@ -14,7 +14,7 @@ const Hero = () => {
       <p className="mt-10 text-2xl sm:text-lg text-center text-neutral-600 max-w-4xl">
         Automate tasks, personalize emails, and close more deals.
       </p>
-      <div className="flex justify-center my-10">
+      <div className="flex flex-wrap justify-center my-10">
         <a
           href="#"
           className="bg-[#f1c40f] py-3 px-4 mx-3 rounded-md"
