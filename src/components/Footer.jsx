@@ -9,7 +9,7 @@ import Logo from "../assets/website icon.png"
 const Footer = () => {
   return (
     <footer className="bg-black text-[#bcbcbc] text-sm py-10 text-center">
-      <div className="container">
+      <div className="">
         <div className=" inline-flex relative before:content-[''] before:top-2 before:bottom-0 before:blur before:h-full before:w-full before:bg-[linear-gradient(to_right,#f87bff,#fb92cf,#ffdd9b,#c2f0b1,#fd8fe)] before:absolute">
           <img src={Logo} alt="LogoSaaS" className="relative h-28 w-28" />
         </div>

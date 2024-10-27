@@ -22,10 +22,14 @@
   color: #3b82f6;
 }
 
-* p, li, ul {
+* a, span, li {
+  font-family: Poppins;
+}
+
+* p {
+  font-family: OpenSansBold;
+}
+* h6 {
   font-family: OpenSans;
 }
 
-* a, span, p, li {
-  font-family: OpenSansBold;
-}

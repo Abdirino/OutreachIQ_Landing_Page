@@ -12,9 +12,9 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 backdrop-blur-lg border-b-[#778fb663]">
       <div className="text-center w-full p-2 bg-black">
-        <p className="text-white font-thin lg:text-sm text-xs tracking-wide">
+        <h6 className="text-white font-light lg:text-sm text-xs tracking-wide">
           Automate. Engage. Convert Smarter | Get started now for only $19/m →
-        </p>
+        </h6>
       </div>
       <div className="container px-4 m-auto relative text-sm">
         <div className="flex lg:justify-around justify-between items-center">

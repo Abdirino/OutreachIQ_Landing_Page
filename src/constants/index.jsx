@@ -60,37 +60,37 @@ export const testimonials = [
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Automated Outreach",
+    icon: <BotMessageSquare size={64}/>,
+    text: "Automated Outreach Campaign",
     description:
       "Let AI handle your outreach while you focus on closing deals. Reach your audience through email, LinkedIn, or SMS with zero manual effort.",
   },
   {
-    icon: <Fingerprint />,
+    icon: <Fingerprint size={64}/>,
     text: "Multi-Channel Communication",
     description:
       "Communicate with prospects where they are, all from one place. Build connections across channels seamlessly with OutreachIQ.",
   },
   {
-    icon: <ShieldHalf />,
+    icon: <ShieldHalf size={64}/>,
     text: "Smart Insights and Reporting",
     description:
       "Get actionable insights on every campaign. Track open rates, responses, and conversions with OutreachIQ’s powerful analytics.",
   },
   {
-    icon: <BatteryCharging />,
+    icon: <BatteryCharging size={64}/>,
     text: "Real-Time Preview",
     description:
       "Preview your incoming prospects in real-time as you make changes, allowing for quick iterations and adjustments.",
   },
   {
-    icon: <PlugZap />,
+    icon: <PlugZap size={64}/>,
     text: "Customized Workflows",
     description:
       "Create unique workflows that fit your process, not the other way around. Our flexible workflows adapt to your sales strategy.",
   },
   {
-    icon: <GlobeLock />,
+    icon: <GlobeLock size={64}/>,
     text: "Analytics Dashboard",
     description:
       "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
