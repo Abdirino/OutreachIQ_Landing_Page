@@ -3,7 +3,7 @@ import Video2 from "../assets/video2.mp4";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center mt-5 lg:mt-20">
+    <div className="flex flex-col items-center mt-5">
       <h1 className="text-5xl sm:text-6xl lg:text-7xl text-center tracking-wide">
         Boost Your Sales with
         <span className="bg-gradient-to-r from-[#2ecc71] to-[#268f52] bg-clip-text text-transparent">
@@ -23,7 +23,7 @@ const Hero = () => {
           Learn more →
         </a>
       </div>
-      <div className="flex my-10 justify-center">
+      <div className="flex my-5 justify-center">
         <video
           autoPlay
           loop

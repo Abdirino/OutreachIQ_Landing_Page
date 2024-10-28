@@ -85,7 +85,7 @@ export const features = [
   },
   {
     icon: <PlugZap size={64}/>,
-    text: "Customized Workflows",
+    text: "Customize Workflows",
     description:
       "Create unique workflows that fit your process, not the other way around. Our flexible workflows adapt to your sales strategy.",
   },
