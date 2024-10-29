@@ -3,7 +3,7 @@ import { pricingOptions } from "../constants";
 
 const Pricing = () => {
   return (
-    <div className="container px-10 lg:px-20 mt-40">
+    <div className="container px-10 mt-40">
       <h1 className="text-3xl text-center sm:text-4xl lg:text-5xl mx-5 text-clip my-8 tracking-wide">
         Pricing
       </h1>
@@ -26,7 +26,7 @@ const Pricing = () => {
               <ul>
                 {option.features.map((feature, index) => (
                   <li key={index} className="mt-8 flex items-center">
-                    <CheckCircle2 />
+                    <CheckCircle2 size={24}/>
                     <span className="ml-2">{feature}</span>
                   </li>
                 ))}

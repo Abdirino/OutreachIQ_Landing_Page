@@ -7,7 +7,7 @@ const Feature = () => {
         <span className="bg-[#f1c40f] border-[#F1F1F1] rounded-3xl shadow-[0_7px_14px_#EAEAEA] h-6 text-lg font-medium py-2 px-3 uppercase tracking-wide">
           Features
         </span>
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl mt-7 mx-5 lg:mt-20 tracking-wide">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl mt-4 mx-5 lg:mt-20 tracking-wide">
           Get Results,
           <span className="bg-gradient-to-r from-[#2ecc71] to-[#268f52] bg-clip-text text-transparent">
             {" "}
