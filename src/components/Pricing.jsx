@@ -3,18 +3,18 @@ import { pricingOptions } from "../constants";
 
 const Pricing = () => {
   return (
-    <div className="mt-40">
+    <div className="container px-10 lg:px-20 mt-40">
       <h1 className="text-3xl text-center sm:text-4xl lg:text-5xl mx-5 text-clip my-8 tracking-wide">
         Pricing
       </h1>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap items-end justify-end">
         {pricingOptions.map((option, index) => (
           <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-2">
             <div className="p-10 border border-[#dbdada] rounded-3xl shadow-[0_7px_14px_#EAEAEA]">
               <span className="text-3xl mb-8">
                 {option.title}
                 {option.title === "Pro" && (
-                  <span className="bg-gradient-to-r from-[#2ecc71] to-[#268f52] bg-clip-text text-transparent">
+                  <span className="bg-gradient-to-r text-xl pl-2 from-[#2ecc71] to-[#268f52] bg-clip-text text-transparent">
                     (Most Popular)
                   </span>
                 )}
